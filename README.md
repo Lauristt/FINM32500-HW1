@@ -2,6 +2,7 @@
     <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
 </p>
 <p align="center"><h1 align="center">FINM32500-HW1</h1></p>
+<p align="center"><align="center">Author: Yuting Li, Rajdeep Choudhury, Xiangchen Liu, Dylan Pan</h1></p>
 <p align="center"><!-- default option, no dependency badges. -->
 </p>
 <p align="center">
