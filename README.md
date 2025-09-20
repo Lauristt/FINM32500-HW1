@@ -44,12 +44,6 @@
 ```sh
 └── FINM32500-HW1/
     ├── Strategies.py
-    ├── __pycache__
-    │   ├── Strategies.cpython-310.pyc
-    │   ├── data_loader.cpython-310.pyc
-    │   ├── engine.cpython-310.pyc
-    │   ├── models.cpython-310.pyc
-    │   └── reporting.cpython-310.pyc
     ├── data_generator.py
     ├── data_loader.py
     ├── engine.py
