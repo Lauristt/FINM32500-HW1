@@ -86,47 +86,44 @@ Before getting started with FINM32500-HW1, ensure your runtime environment meets
 
 ###  Installation (Build from source)
 
-1. Clone the FINM32500-HW1 repository:
-   
-❯ git clone [https://github.com/Lauristt/FINM32500-HW1](https://github.com/Lauristt/FINM32500-HW1)
+Clone the FINM32500-HW1 repository:
 
-2. Navigate to the project directory:
+	git clone [https://github.com/Lauristt/FINM32500-HW1](https://github.com/Lauristt/FINM32500-HW1)
 
-❯ cd FINM32500-HW1
+Navigate to the project directory:
+
+	cd FINM32500-HW1
 
 No further installation is needed as the project only uses standard Python libraries.
 
 ###  Usage
-To run the simulation, follow these steps:
+To run the simulation on Linux Server, follow these steps:
 
-    Generate Market Data:
-    First, run the data generator script to create the market_data.csv file.
+Generate Market Data:First, run the data generator script to create the market_data.csv file.
 
     python data_generator.py
 
-    Run the Backtest:
-    Execute the main script to run the backtest with the chosen strategy (configurable in main.py).
+Run the Backtest: Execute the main script to run the backtest with the chosen strategy (configurable in main.py).
 
     python main.py
 
-    View Results:
-    After the simulation finishes, a performance_report.md file will be created in the project directory. Open this file to view the results.
+View Results: After the simulation finishes, a performance_report.md file will be created in the project directory. Open this file to view the results.
 
 ##  Project Roadmap
 
-    [X] Core Framework: <strike>Implement the modular, event-driven backtesting engine.</strike>
+[X] Core Framework: <strike>Implement the modular, event-driven backtesting engine.</strike>
 
-    [X] Basic Strategies: <strike>Implement Moving Average Crossover and Momentum strategies.</strike>
+[X] Basic Strategies: <strike>Implement Moving Average Crossover and Momentum strategies.</strike>
 
-    [X] Performance Reporting: <strike>Implement reporting with key metrics and ASCII equity curve.</strike>
+[X] Performance Reporting: <strike>Implement reporting with key metrics and ASCII equity curve.</strike>
 
 ##  Contributing
 
-    💬 Join the Discussions: Share your insights, provide feedback, or ask questions.
+💬 Join the Discussions: Share your insights, provide feedback, or ask questions.
 
-    🐛 Report Issues: Submit bugs found or log feature requests for the FINM32500-HW1 project.
+🐛 Report Issues: Submit bugs found or log feature requests for the FINM32500-HW1 project.
 
-    💡 Submit Pull Requests: Review open PRs, and submit your own PRs.
+💡 Submit Pull Requests: Review open PRs, and submit your own PRs.
 
 <details closed>
 	
@@ -146,6 +143,4 @@ This project is protected under the MIT LICENSE. For more details, refer to the 
 
 ##  Acknowledgments
 
-    This project was created as part of the FINM 32500 course at The University of Chicago.
-
-    Inspiration from various open-source backtesting frameworks.
+This project was created as part of the FINM 32500 course at The University of Chicago. Inspiration from various open-source backtesting frameworks.
